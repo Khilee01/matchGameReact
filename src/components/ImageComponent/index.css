@@ -1,0 +1,14 @@
+.buttonImage {
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  height: 17vh;
+  width: 10vw;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+}

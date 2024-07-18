@@ -1,0 +1,227 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  width: 100vw;
+}
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  background-color: #2c0e3a;
+  color: #fec653;
+  list-style: none;
+}
+
+#website-logo {
+  height: 5vh;
+  width: auto;
+  padding-left: 1vw;
+}
+.headerWritten {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 25px;
+}
+.score {
+  color: #ffffff;
+  font-size: 18px;
+  align-self: center;
+  margin-right: 4px;
+}
+.score span {
+  color: #fec653;
+  font-size: 25px;
+}
+.headerWritten p {
+  align-self: center;
+}
+.Timer {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.Timer img {
+  height: 25px;
+  margin-right: 10px;
+}
+.Timer p {
+  margin-right: 50px;
+}
+
+@media (max-width: 767px) {
+  .mainContainer {
+    padding-bottom: 40px;
+    width: 100vw;
+    min-height: 100vh;
+  }
+  .Timer p{
+    color: #fec653;
+  }
+  .CardImg {
+    margin-top: 60px;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-grow: 3;
+    color: #ffffff;
+    flex-shrink: 2;
+    padding: 20px;
+  }
+  .trophy {
+    padding-top: 17vh;
+    height: 40vh;
+  }
+
+  .CardImg p {
+    margin: 0;
+    font-size: 3vh;
+  }
+  .button {
+    display: flex;
+    flex-direction: row;
+    margin-top: 17px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #cf60c8;
+    border-radius: 10px;
+    width: 200px;
+    color: #ffffff;
+    font-weight: 600;
+    border: none;
+    margin-bottom: 0px;
+  }
+  .imagesAll {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .matchImage {
+    margin-top: 5vh;
+    height: 38vh;
+    width: 45vw;
+  }
+  .tabsList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #ffffff;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+
+  .activeTab {
+    color: #fec653;
+    border-bottom: #fec653 solid 2px;
+    padding: 5px;
+  }
+  .imageList {
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+    min-height: 100vh;
+    width: 100vw;
+  }
+  .CardImg {
+    margin-top: 8vh;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+    display: flex;
+    flex-direction: column;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+    color: #ffffff;
+    font-weight: 500;
+  }
+  .trophy {
+    padding-top: 15vh;
+    height: 37vh;
+    width: 20vw;
+  }
+
+  .CardImg p {
+    margin: 0;
+    font-size: 2.5vh;
+  }
+  .button {
+    font-size: 11px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 17px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #cf60c8;
+    border-radius: 10px;
+    width: 190px;
+    color: #ffffff;
+    font-weight: 600;
+    border: none;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .imagesAll {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .matchImage {
+    margin-top: 5vh;
+    height: 38vh;
+    width: 45vw;
+  }
+  .tabsList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #ffffff;
+    list-style: none;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+
+  .activeTab {
+    color: #fec653;
+    border-bottom: #fec653 solid 2px;
+    padding: 10px;
+  }
+  .imageList {
+    margin: 0;
+    width: 68vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+}

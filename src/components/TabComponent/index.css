@@ -1,0 +1,30 @@
+li {
+  padding: 10px;
+}
+.activeTab {
+  color: #fec653;
+  border-bottom: #fec653 solid 2px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.tabButton {
+  color: #ffffff;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  border-radius: 0px;
+}
+@media (max-width: 767px) {
+  li {
+    padding: 3px;
+    flex-shrink: 2;
+    color: #ffffff;
+  }
+  .activeTab {
+    color: #fec653;
+    border-bottom: #fec653 solid 2px;
+    padding: 3px;
+  }
+}
